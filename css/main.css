@@ -24,26 +24,28 @@ body{
     margin: 0;
     padding: 0;
     animation-name: bground;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
 .container{
-    width: 90vw;
+    width: 77vw;
     height: 100vh;
     margin: 10px auto;
+    display: inline-block;
 }
 
 .contact-form{
-    width: 80vw;
-    height: 70vh;
-    margin: 10px auto;
+    /* width: 70vw;
+    height: 70vh; */
+    margin-left: 30%;
     color: #fff;
 }
 
 fieldset{
     border-radius: 10px;
-    border: 2px solid rgb(88, 5, 5);
+    border: 2px solid rgb(44, 177, 170);
+    text-align: center;
 }
 legend{
     font-size: 2em;
@@ -54,9 +56,10 @@ input:not([type="radio"]), textarea{
     border-radius: 4px;
     box-shadow: none;
     margin-top: 8px;
-    width: 50%;
+    width: 60%;
     padding: 10px 0;
-    text-align: center;
+    padding-left: 10px;
+    margin-left: 20%;
 }
 textarea{
     height: 150px;
@@ -65,12 +68,16 @@ textarea{
 .btn{
     border-radius: 4px;
     margin-top: 10px;
-    padding: 10px 30px;
+    padding: 10px 40px;
     text-align: center;
-    margin-left: 200px;
-    background: rgb(218, 135, 218);
+    margin-left: 50px;
+    background: rgb(44, 177, 170);
     color: #fff;
     box-shadow: none;
     border-style: none;
-    transition-timing-function: linear;
+}
+.btn:hover{
+opacity: 0.6;
+transition-timing-function: linear;
+cursor: pointer;
 }
