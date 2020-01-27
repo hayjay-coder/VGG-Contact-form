@@ -1,17 +1,28 @@
 @keyframes bground{
-    0%{background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/venture-garden-group-office.jpg);}
-    25%{background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/VGG-vibranium-36.jpg);}
-    50%{background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/VGG-vibranium-43.jpg);}
-    75%{background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/VGG-vibranium-51.jpg);}
-    100%{background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/venture-garden-group-office.jpg);}
+    0%{background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/venture-garden-group-office.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+    25%{background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/VGG-vibranium-36.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+    50%{background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/VGG-vibranium-43.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+    75%{background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/VGG-vibranium-51.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+    100%{background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/venture-garden-group-office.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
 }
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/venture-garden-group-office.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     animation-name: bground;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -48,7 +59,7 @@ input:not([type="radio"]), textarea{
     text-align: center;
 }
 textarea{
-    height: 200px;
+    height: 150px;
 }
 
 .btn{
@@ -61,4 +72,5 @@ textarea{
     color: #fff;
     box-shadow: none;
     border-style: none;
+    transition-timing-function: linear;
 }
