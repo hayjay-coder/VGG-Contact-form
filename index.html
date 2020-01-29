@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Form</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
+    <link rel="stylesheet" type="text/css"  href="scss/style.css">
 </head>
 <body>
     <div class="container">
     <form class="contact-form">
-        <fieldset>
-            <legend>Contact Form</legend>
+        <h1>Venture Garden Contact Form</h1>          
             <label for="name">
                 <input type="text" name="First Name" placeholder="First Name" required>
             </label>
@@ -21,7 +21,7 @@
             <label for="phone">
                 <input type="tel" name="Phone Number" placeholder="Phone Number" required>
             </label>
-            <label for="gender">Gender<br><br>
+            <label for="gender">Gender<br>
                 <input type="radio" name="gender" value="gender">Female
                 <input type="radio" name="gender" value="gender">Male
                 <input type="radio" name="gender" value="gender">Others
@@ -31,10 +31,9 @@
             </label>
             <label for="password">
                 <input type="password" name="password" placeholder="Password" required>
-            </label>
-            <textarea name="Message">Message</textarea>
+            </label><br>
+            <textarea name="Message">Message</textarea><br>
             <button class="btn">Submit</button>
-        </fieldset>
     </form>
     </div>
 </body>
